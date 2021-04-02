@@ -502,7 +502,7 @@ class SVD {
   /// Return the right singular vectors
   /// return V
   Array2d V() {
-    return matrixSub(_V, 0, _n, 0, _n);
+    return matrixSub(_V, 0, _n - 1, 0, _n - 1);
   }
 
   /// Return the one-dimensional array of singular values
