@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import '../array.dart';
 
-/// Compute the square root for each element of the array
+/// Compute the power for each element of the array [a] by [exponent]
 ///
 /// # Examples
 /// ```dart
@@ -17,7 +17,7 @@ import '../array.dart';
 Array arrayPow(Array a, double exponent) {
   var c = Array.fixed(a.length);
   for (var i = 0; i < a.length; i++) {
-    c[i] = math.pow(a[i], exponent);
+    c[i] = math.pow(a[i], exponent).toDouble();
   }
   return c;
 }

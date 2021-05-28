@@ -1,6 +1,6 @@
 import '../array.dart';
 
-/// Multiply all the array elements for a number
+/// Subtract all the array elements for a number
 ///
 /// # Examples
 /// ```dart
